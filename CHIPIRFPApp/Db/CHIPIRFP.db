@@ -50,6 +50,7 @@ record(ai, "$(P)TOTALBEAMCURRENT:RBV")
 	field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:COUNT")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "uA")
 }
 
 record(ai, "$(P)ELAPSEDTIME:RBV")
